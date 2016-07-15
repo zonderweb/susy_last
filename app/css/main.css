@@ -1,0 +1,112 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.wrap {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(102, 102, 255, 0.25)), color-stop(70.02801%, rgba(179, 179, 255, 0.25)), color-stop(70.02801%, transparent));
+  background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 70.02801%, transparent 70.02801%);
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 70.02801%, transparent 70.02801%);
+  background-size: 8.5468%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+h2 {
+  padding: 1rem 0;
+  text-align: center;
+  color: #555; }
+
+ul, ol {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.site-header, .site-footer {
+  background: rgba(234, 159, 195, 0.8); }
+
+.site-header a {
+  color: #555;
+  text-decoration: none; }
+
+.content {
+  width: 74.52275%;
+  float: left;
+  margin-right: 1.90901%;
+  margin-top: 5vh;
+  padding-bottom: 1rem;
+  background: rgba(113, 218, 210, 0.8); }
+
+.sidebar {
+  width: 23.56824%;
+  float: right;
+  margin-right: 0;
+  margin-top: 5vh;
+  background: rgba(250, 231, 179, 0.8);
+  padding-bottom: 1rem; }
+  .sidebar a {
+    color: #666;
+    padding-left: 1rem;
+    line-height: 2;
+    text-decoration: none; }
+
+.widget {
+  background: rgba(240, 150, 113, 0.8); }
+
+.site-footer {
+  margin-top: 5vh; }
+
+.logo {
+  float: left;
+  line-height: 2rem;
+  font-size: 1.5rem; }
+
+nav {
+  float: right; }
+  nav li {
+    list-style: none;
+    float: left;
+    margin-left: 1em;
+    line-height: 2rem; }
+
+.gallery {
+  width: 82.90639%;
+  margin-left: auto;
+  margin-right: auto; }
+  .gallery:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.gallery__item {
+  width: 17.52815%;
+  float: left;
+  margin-right: 3.08981%;
+  margin-bottom: 3.08981%; }
+  .gallery__item:nth-child(5n) {
+    float: right;
+    margin-right: 0; }
+
+.widget {
+  width: 23.56824%;
+  float: left;
+  margin-right: 1.90901%; }
+  .widget:nth-child(4n) {
+    float: right;
+    margin-right: 0; }
